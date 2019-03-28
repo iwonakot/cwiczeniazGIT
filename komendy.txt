@@ -1,0 +1,11 @@
+Za pomoc¹ komendy git checkout -b „NazwaBrancha” – dziêki tej komendzie automatycznie przepinamy siê na stworzonego brancha
+
+sprawdzenie, jakie modyfikacje zosta³y zrobione od ostatniego commit’a, aby niepotrzebnie nie wysy³aæ nadmiarowych treœci co mog³oby skutkowaæ ba³aganem w repozytorium. Modyfikacje mo¿emy sprawdziæ za pomoc¹ komendy git status.
+
+Jeœli modyfikacje siê zgadzaj¹ musimy je przygotowaæ do wys³ania. Pomo¿e nam w tym komenda git add <nazwa pliku wraz z rozszerzeniem>. Po klikniêciu enter nie wyœwietli nam siê ¿aden wizualny komunikat, ale komend¹ git status mo¿emy sprawdziæ czy odpowiednie modyfikacje zosta³y dodane.
+
+stworzenie commit’a. Stworzymy go za pomoc¹ komendy git commit -am „nazwa commit’a”. 
+
+ Zmiany stan¹ siê widoczne dopiero po wypchniêciu zmian za pomoc¹ komendy git push <dok¹d> <sk¹d>. Najczêstsza forma tej komendy to git push origin <NazwaBrancha>. Po tych czynnoœciach nasz commit powinien byæ ju¿ widoczny na repozytorium.
+
+W nazwie commit’a wypisz zmiany jakie wysy³asz w danym commit’ ie. U³atwi ci to potem ich przeszukiwanie.
